@@ -32,7 +32,8 @@ function findBy(array, findFn) {
     if (i == findFn) {
       found = i
       i = i + 1
-    } else {
+    }
+    else {
       i = i + 1
       if (i == length) {
         found = null
