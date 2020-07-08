@@ -29,7 +29,7 @@ function findBy(array, findFn) {
   var length = array.length
   var found = 0
   while (i < length) {
-    if (i == findFn) {
+    if (array[i] == findFn) {
       found = i
       i = i + 1
     }
