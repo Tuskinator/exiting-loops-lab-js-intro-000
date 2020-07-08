@@ -29,8 +29,8 @@ function findBy(array, findFn) {
   var length = array.length
   var found = 0
   while (i < length) {
-    if (array[i] == findFn) {
-      found = i
+    if (array[5] == findFn) {
+      found = findFn
       i = i + 1
     }
     else {
