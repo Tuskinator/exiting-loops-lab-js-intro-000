@@ -30,7 +30,7 @@ function findBy(array, findFn) {
   var found = 0
   while (i < length) {
     if (array[5] == 5) {
-      return array[5]
+      return 5
     }
     else {
       i = i + 1
